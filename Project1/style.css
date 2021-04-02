@@ -1,0 +1,24 @@
+
+    h1 {
+      font: 70px, Helvetica;
+      color: black;
+    }
+
+    body {
+      background-color: rgb(245, 239, 239);
+      font: 14px, Helvetica;
+      padding: 5px;
+      margin: 7%;
+    }
+
+    input[type=button],
+    input[type=reset] {
+      background-color: blue;
+      border: none;
+      font: 16px;
+      color: cornsilk;
+      padding: 10px 20px;
+      margin: 1px;
+      cursor: pointer;
+      float: right
+    }

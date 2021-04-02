@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Form structure: Task 1</title>
+    <style href="style.css" rel="stylesheet"></style>
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <form id="quiz" name = "quiz">
+
+    <h4>How to add a one line comment to a HTML Page?*</h4>
+
+    <table>
+
+      <tr>
+        <td>
+          <input type="radio"  id = "option1" value="option1" name="question1" >
+          <label for="option1"> !-- --</label>
+
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input type="radio" id = "option2" value="option2" name="question1">
+          <label for="option2"> // </label>
+
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input type="radio" id = "option3" value="option3" name="question1">
+          <label for="option3"> \\ </label>
+
+    </table>
+
+
+
+    <h4>In the hierarchy of objects, what is the direct parent of the "form" object?*</h4>
+    <table>
+      <tr>
+        <td>
+          <input type="radio" id="option1" value="option1" name="question2">
+          <label for="option1">body</label>
+
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input type="radio" id="option2" value="option2" name="question2">
+          <label for="option2">document</label>
+
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <input type="radio" id="option3" value="option3" name="question2">
+          <label for="option3">window</label>
+
+      <tr>
+        <td>
+          <input type="radio" id="option4" value="option4" name="question2">
+          <label for="option4">location</label>
+
+        </td>
+      </tr>
+    </table>
+
+      <h4>JavaScript*</h4>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" id="option1" value="option1" name="question3">
+            <label for="option1">doit être compilé avant d'être exécuté</label>
+
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <input type="radio" id="option2" value="option2" name="question3">
+            <label for="option2">s'exécute sur le client</label>
+
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <input type="radio" id="option3" value="option3" name="question3">
+            <label for="option3"> est un langage dérivé de l'ADA</label>
+
+        <tr>
+          <td>
+            <input type="radio" id="option4" value="option4" name="question3">
+            <label for="option4">s'exécute sur le serveur uniquement</label>
+
+          </td>
+        </tr>
+      </table>
+
+
+      <input id="button" type="button" value="VALIDATE" onclick="check();">
+      <button onclick="reload()">Restart</button>
+
+
+    </form>
+    <div id="after_submit">
+    	<p id="message"></p>
+    </div>
+</body>
+</html>
